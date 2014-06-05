@@ -1,0 +1,67 @@
+@import url('reset.css');
+
+/* general */
+.main_container {
+    padding: 20px;
+}
+.header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.content {
+    width: 100%;
+    height: auto;
+}
+.content > h2 {
+    font-weight: bold;
+}
+.footer {
+    width: 100%;
+    padding-top: 30px;
+    clear: both;
+}
+
+/* rectangle */
+.rectangle_container {
+    width: 100%;
+    clear: both;
+    margin: 10px 0;
+    padding: 5px 0 5px 10px;
+}
+.rectangle {
+    border: 1px solid #000;
+    float: left;
+}
+.rectangle_actions {
+    position: relative;
+    left: 5%;
+    top: 40%;
+}
+
+/* editor */
+.editor_container {
+    clear: both;
+    position: relative;
+    height: 105px;
+}
+.form {
+    float: left;
+    width: 220px;
+    position: absolute;
+}
+.form > p {
+    padding: 5px 0;
+    line-height: 23px;
+}
+.form label {
+    float: left;
+    width: 60px;
+}
+.form input {
+    width: 100px;
+}
+.edit_actions {
+    position: absolute;
+    top: 73px;
+    left: 200px;
+}
